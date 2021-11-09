@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/stylesDesk.css">
+  <link rel="stylesheet" href="normalize.css">
+  <script src="https://kit.fontawesome.com/7461cf9184.js" crossorigin="anonymous"></script>
+
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- Report info container -->
+    <div class="report">
+
+
+      <div class="info">
+        <img src="images/image-jeremy.png" alt="">
+
+        <div class="person-info">
+          <h2 class="title">
+            Report for
+          </h2>
+          <h3 class="name">
+            Jeremy Robson
+          </h3>
+        </div>
+
+      </div>
+
+      <div class="footer">
+        <p class="category" id="daily" data-categoria="daily" >Daily</p>
+        <p class="category" id="weekly" data-categoria="weekly">Weekly</p>
+        <p class="category" id="monthly" data-categoria="monthly">Monthly</p>
+      </div>
+
+  
+
+    </div>
+
+
+    <!-- Work category container -->
+    <div class="work-container">
+      <div class="img">
+        <img src="images/icon-work.svg" alt="">
+      </div>
+
+      <div class="work">
+        <i class="fas fa-ellipsis-h"></i>
+        <h2 class="category">
+          Work
+        </h2>
+
+
+        <!-- Daily section -->
+        <section class="category-daily">
+          <h3   class="hours-daily  daily" data-categoria="daily">
+            5hrs
+            <!-- daily -->
+          </h3>
+          <p   class="hours-daily-previous daily" data-categoria="daily">
+            Previous - 7hrs
+            <!-- daily -->
+          </p>
+        </section>
+
+        <!--  Weekly section -->
+        <section class="category-weekly">
+          <h3 class="hours-weekly weekly"  data-categoria="weekly">
+            32hrs
+            <!-- weekly -->
+          </h3>
+          <p class="hours-weekly-previous weekly" data-categoria="weekly">
+            Previous - 36hrs
+            <!-- weekly -->
+          </p>
+        </section>
+
+        <!-- Monthly section -->
+        <section class="category-monthly">
+          <h3 class="hours-monthly monthly"  data-categoria="monthly">   
+            103hrs
+            <!-- monthly -->
+          </h3>
+          <p class="hours-monthly-previous monthly"  data-categoria="monthly">
+            Previous - 128hrs
+            <!-- monthly -->
+          </p>
+        </section>
+
+      </div>
+    </div>
+
+    <!-- Play -->
+    <div class="play-container">
+      <div class="img">
+        <img src="images/icon-play.svg" alt="">
+      </div>
+      <div class="play">
+        <i class="fas fa-ellipsis-h"></i>
+        <h2 class="category">
+          Play
+        </h2>
+
+        <!-- Daily section -->
+        <section class="category-daily">
+          <h3  class="hours-daily  daily" data-categoria="daily">
+            1hr
+            <!-- daily -->
+          </h3>
+          <p  class="hours-daily-previous daily" data-categoria="daily">
+            Previous - 2hrs
+            <!-- daily -->
+          </p>
+        </section>
+
+        <!--  Weekly section -->
+        <section class="category-weekly">
+          <h3 class="hours-weekly weekly"  data-categoria="weekly">
+            10hrs
+            <!-- weekly -->
+          </h3>
+          <p class="hours-weekly-previous weekly" data-categoria="weekly">
+            Previous - 8hrs
+            <!-- weekly -->
+          </p>
+        </section>
+
+        <!-- Monthly section -->
+        <section class="category-monthly">
+          <h3 class="hours-monthly monthly"  data-categoria="monthly">
+            23hrs
+            <!-- monthly -->
+          </h3>
+          <p class="hours-monthly-previous monthly"  data-categoria="monthly">
+            Previous - 29hrs
+            <!-- monthly -->
+          </p>
+        </section>
+
+
+      </div>
+    </div>
+
+
+    <!-- Study -->
+    <div class="study-container">
+      <div class="img">
+        <img src="images/icon-study.svg" alt="">
+      </div>
+      <div class="study">
+        <i class="fas fa-ellipsis-h"></i>
+        <h2 class="category">
+          Study
+        </h2>
+
+        <!-- Daily section -->
+        <section class="category-daily">
+          <h3  class="hours-daily  daily" data-categoria="daily">
+            0hrs
+            <!-- daily -->
+          </h3>
+          <p  class="hours-daily-previous daily" data-categoria="daily">
+            Previous - 1hr
+            <!-- daily -->></p>
+        </section>
+
+        <!--  Weekly section -->
+        <section class="category-weekly">
+          <h3 class="hours-weekly weekly"  data-categoria="weekly">
+            4hrs
+            <!-- weekly -->
+          </h3>
+          <p class="hours-weekly-previous weekly" data-categoria="weekly">
+            Previous - 7hrs
+            <!-- weekly -->
+          </p>
+        </section>
+
+        <!-- Monthly section -->
+        <section class="category-monthly">
+          <h3 class="hours-monthly monthly"  data-categoria="monthly">
+            13hrs
+            <!-- monthly -->
+          </h3>
+          <p class="hours-monthly-previous monthly"  data-categoria="monthly">
+            Previous - 19hrs
+            <!-- monthly -->
+          </p>
+        </section>
+
+
+      </div>
+    </div>
+
+    <!-- Exercise -->
+    <div class="exercise-container">
+      <div class="img">
+        <img src="images/icon-exercise.svg" alt="">
+      </div>
+      <div class="exercise">
+        <i class="fas fa-ellipsis-h"></i>
+        <h2 class="category">
+          Exercise
+        </h2>
+
+        <!-- Daily section -->
+        <section class="category-daily">
+          <h3  class="hours-daily  daily" data-categoria="daily">
+            1hr
+            <!-- daily -->
+          </h3>
+          <p  class="hours-daily-previous daily" data-categoria="daily">
+            Previous - 1hr
+            <!-- daily -->></p>
+        </section>
+
+        <!--  Weekly section -->
+        <section class="category-weekly">
+          <h3 class="hours-weekly weekly"  data-categoria="weekly">
+            4hrs
+            <!-- weekly -->
+          </h3>
+          <p class="hours-weekly-previous weekly" data-categoria="weekly">
+            Previous - 5hrs
+            <!-- weekly -->
+          </p>
+        </section>
+
+        <!-- Monthly section -->
+        <section class="category-monthly">
+          <h3 class="hours-monthly monthly"  data-categoria="monthly">
+            11hrs
+            <!-- monthly -->
+          </h3>
+          <p class="hours-monthly-previous monthly"  data-categoria="monthly">
+            Previous - 18hrs
+            <!-- monthly -->
+          </p>
+        </section>
+
+
+      </div>
+    </div>
+
+    <!-- Social -->
+    <div class="social-container">
+      <div class="img">
+        <img src="images/icon-social.svg" alt="">
+      </div>
+      <div class="social">
+        <i class="fas fa-ellipsis-h"></i>
+        <h2 class="category">
+          Social
+        </h2>
+
+        <!-- Daily section -->
+        <section class="category-daily">
+          <h3  class="hours-daily  daily" data-categoria="daily">
+            1hr
+            <!-- daily -->
+          </h3>
+          <p  class="hours-daily-previous daily" data-categoria="daily">
+            Previous - 3hrs
+            <!-- daily -->></p>
+        </section>
+
+        <!--  Weekly section -->
+        <section class="category-weekly">
+          <h3 class="hours-weekly weekly"  data-categoria="weekly">
+            5hrs
+            <!-- weekly -->
+          </h3>
+          <p class="hours-weekly-previous weekly" data-categoria="weekly">
+            Previous - 10hrs
+            <!-- weekly -->
+          </p>
+        </section>
+
+        <!-- Monthly section -->
+        <section class="category-monthly">
+          <h3 class="hours-monthly monthly"  data-categoria="monthly">
+            21hrs
+            <!-- monthly -->
+          </h3>
+          <p class="hours-monthly-previous monthly"  data-categoria="monthly">
+            Previous - 23hrs
+            <!-- monthly -->
+          </p>
+        </section>
+
+
+      </div>
+    </div>
+
+    <!-- Self-care  -->
+    <div class="self-care-container">
+      <div class="img">
+        <img src="images/icon-self-care.svg" alt="">
+      </div>
+      <div class="self-care">
+        <i class="fas fa-ellipsis-h"></i>
+        <h2 class="category">
+          Self Care
+        </h2>
+
+        <!-- Daily section -->
+        <section class="category-daily">
+          <h3  class="hours-daily  daily" data-categoria="daily">
+            0hrs
+            <!-- daily -->
+          </h3>
+          <p  class="hours-daily-previous daily" data-categoria="daily">
+            Previous - 1hr
+            <!-- daily -->></p>
+        </section>
+
+        <!--  Weekly section -->
+        <section class="category-weekly">
+          <h3 class="hours-weekly weekly"  data-categoria="weekly">
+            2hrs
+            <!-- weekly -->
+          </h3>
+          <p class="hours-weekly-previous weekly" data-categoria="weekly">
+            Previous - 2hrs
+            <!-- weekly -->
+          </p>
+        </section>
+
+        <!-- Monthly section -->
+        <section class="category-monthly">
+          <h3 class="hours-monthly monthly"  data-categoria="monthly">
+            7hrs
+            <!-- monthly -->
+          </h3>
+          <p class="hours-monthly-previous monthly"  data-categoria="monthly">
+            Previous - 11hrs
+            <!-- monthly -->
+          </p>
+        </section>
+
+
+      </div>
+
+    </div>
+
+
+
+
+
+
+  </div>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Abraham Martinez Marquez</a>.
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
