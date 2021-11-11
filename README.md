@@ -1,8 +1,11 @@
-Time tracking dashboard
+# time-tracking-dashboard
 
-![Design preview for the Time tracking dashboard coding challenge](./design/desktop-preview.jpg)
+Time tracking dashboard | Froentend Mentor
 
-The designs were created to the following widths:
+# Challenge Details
 
-- Mobile: 375px
-- Desktop: 1440px
+A perfect opportunity to practice your CSS Grid skills. For anyone wanting to take it up a notch, we provide a JSON data file to practice working with data.
+
+# Challenge link
+
+https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw
