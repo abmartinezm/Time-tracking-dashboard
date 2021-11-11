@@ -1,11 +1,14 @@
-# time-tracking-dashboard
 
-Time tracking dashboard | Froentend Mentor
 
-# Challenge Details
+Time tracking dashboard 
 
-A perfect opportunity to practice your CSS Grid skills. For anyone wanting to take it up a notch, we provide a JSON data file to practice working with data.
+![Design preview for the Time tracking dashboard coding challenge](./design/desktop-preview.jpg)
 
-# Challenge link
 
-https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw
+LiveSiteUrl: https://time-tracking-dashboard-abmartinezm.vercel.app/
+
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
